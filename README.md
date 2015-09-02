@@ -37,4 +37,5 @@ License: This work is dedicated to the public domain and is free for all uses, c
 19 .background-clip(@argument: padding-box)    
 
 #####Добавил     
-.background-size(@size: contain)    
+.background-size(@size: contain)   
+.truncate(@param:ellipsis) 

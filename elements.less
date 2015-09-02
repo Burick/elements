@@ -154,9 +154,18 @@
   -webkit-background-clip: @argument;
   background-clip: @argument;
 }
+// позиционирует бекграунд
 .background-size(@size: contain) {
   background-size: @size;
    -webkit-background-size: @size;
    -o-background-size: @size;
    -moz-background-size: @size;
+}
+// обрезает окончание текста блока
+.truncate(@param:ellipsis){
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: @param;
+  -o-text-overflow: @param;
+  display: inline-block;
 }
